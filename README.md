@@ -18,7 +18,7 @@ Source control:<br>
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git<br>
 
 
------------------------------------SET UP-----------------------------------------------------
+-----------------------------------SET UP-----------------------------------------------------<br>
 -install conda (package/environment manager to keep versions and dependencies separated) <br>
 -create new project folder<br>
 -open new folder in explorer<br>
@@ -34,7 +34,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git<br>
 
 
 
------------------------------------CHEAT SHEET-----------------------------------------------------
+-----------------------------------CHEAT SHEET-----------------------------------------------------<br>
 conda env list			                    # list all virtual env<br>
 conda deactivate		                   # deactivate virtual env<br>
 conda remove --name ENV_NAME --all   # delete virtual env<br>
