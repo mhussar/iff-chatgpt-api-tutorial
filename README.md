@@ -28,9 +28,13 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git<br>
 -conda install openai <br>
 -conda install -c conda-forge python-dotenv<br>
 -open vs code and open the tutorial folder<br>
--control + shift + P, Python:Select interpreter, search for conda environment you created to set VS code project to that env<br>
+-control + shift + P, Python:Select interpreter, search for conda environment you created to set VS code project to that env<br><br><br>
 
- 
+Remember to create a ".env" file and place it in the root of your project where you're running the main script.<br>
+inside the ".env" file should look something like this: <br>
+OPENAI_API_KEY=your-api-key-here   #openai<br>
+PINECONE_API_KEY=your-api-key-here #pinecone.io<br>
+
 
 
 
