@@ -4,43 +4,43 @@ Basic set up in python for ChatGPT API
 06/30/23
 
 
-Python Installation:
+Python Installation:<br>
 https://www.python.org/downloads/
 
-Popular Python Package Manager/Environment manager:
-https://www.anaconda.com/
+Popular Python Package Manager/Environment manager:<br>
+https://www.anaconda.com/<br>
 https://conda.io/en/latest/miniconda.html -- prefer
 
-IDE:
+IDE:<br>
 https://code.visualstudio.com/
 
-Source control:
+Source control:<br>
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
--install conda (package/environment manager to keep versions and dependencies separated)
--create new project folder
--open new folder in explorer
--type cmd in address bar + enter
--conda create -n apitut python=3.11.3 
--conda activate my-conda-env   
--conda install openai 
--conda install -c conda-forge python-dotenv
--open vs code and open the tutorial folder
--control + shift + P, Python:Select interpreter, search for conda environment you created to set VS code project to that env
+-install conda (package/environment manager to keep versions and dependencies separated) <br>
+-create new project folder<br>
+-open new folder in explorer<br>
+-type cmd in address bar + enter<br>
+-conda create -n apitut python=3.11.3 <br>
+-conda activate my-conda-env   <br>
+-conda install openai <br>
+-conda install -c conda-forge python-dotenv<br>
+-open vs code and open the tutorial folder<br>
+-control + shift + P, Python:Select interpreter, search for conda environment you created to set VS code project to that env<br>
 
  
 
 
 
 -------------------------------------------------------------------------------------------------------
-conda env list			             # list all virtual env
-conda deactivate		             # deactivate virtual env
-conda remove --name ENV_NAME --all   # delete virtual env
-conda create -n my-conda-env         # creates new virtual env
-conda activate my-conda-env          # activate environment in terminal
-conda install jupyter                # install jupyter + notebook
-jupyter notebook                     # start server + kernel inside my-conda-env
+conda env list			                    # list all virtual env<br>
+conda deactivate		                   # deactivate virtual env<br>
+conda remove --name ENV_NAME --all   # delete virtual env<br>
+conda create -n my-conda-env         # creates new virtual env<br>
+conda activate my-conda-env          # activate environment in terminal<br>
+conda install jupyter                # install jupyter + notebook<br>
+jupyter notebook                     # start server + kernel inside my-conda-env<br>
 
 
 
